@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pizza Mania</title>
+
+<style>
+label {
+    display: inline-block;
+    width: 180px;
+}
+img {
+    vertical-align: middle;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1 style="background: yellow;">
+    <img src="https://cdn-icons-png.flaticon.com/512/3132/3132693.png" width="30">
+    Pizza Mania
+</h1>
+
+<form>
+
+<fieldset>
+<legend><b>Pizza Order Here</b></legend>
+
+<!-- Customer Details -->
+<h3>Customer Details</h3>
+
+<label>First Name:</label>
+<input type="text"><br><br>
+
+<label>Last Name:</label>
+<input type="text"><br><br>
+
+<label>Email:</label>
+<input type="email"><br><br>
+
+<label>Contact:</label>
+<input type="tel"><br><br>
+
+<label>Delivery Date:</label>
+<input type="date"><br><br>
+
+
+<!-- Size -->
+<h3>Size</h3>
+
+<label></label>
+<input type="radio" name="size"> Small
+<input type="radio" name="size"> Medium
+<input type="radio" name="size"> Large
+<br><br>
+
+
+<!-- Outlet -->
+<h3>Outlet</h3>
+
+<label>Outlet:</label>
+<select>
+<option>Select Outlet</option>
+<option>Hyderabad</option>
+<option>Bangalore</option>
+<option>Chennai</option>
+</select>
+<br><br>
+
+
+<!-- Menu -->
+<h3>Menu</h3>
+
+<img src="https://cdn-icons-png.flaticon.com/512/1404/1404945.png" width="50">
+<label>Hawaiian (₹150)</label>
+<input type="checkbox">
+Qty <input type="number" value="1" style="width:50px;"><br><br>
+
+<img src="https://cdn-icons-png.flaticon.com/512/1404/1404945.png" width="50">
+<label>Pepperoni (₹140)</label>
+<input type="checkbox">
+Qty <input type="number" value="1" style="width:50px;"><br><br>
+
+<img src="https://cdn-icons-png.flaticon.com/512/1404/1404945.png" width="50">
+<label>Vegetable (₹130)</label>
+<input type="checkbox">
+Qty <input type="number" value="1" style="width:50px;"><br><br>
+
+
+<!-- Extra Details -->
+<h3>Extra Details</h3>
+
+<img src="https://cdn-icons-png.flaticon.com/512/633/633611.png" width="20">
+<label>Credit Card:</label>
+<input type="text">
+<button type="button">Verify</button><br><br>
+
+<img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" width="20">
+<label>Pin:</label>
+<input type="password"><br><br>
+
+<img src="https://cdn-icons-png.flaticon.com/512/1829/1829586.png" width="20">
+<label>Upload Photo:</label>
+<input type="file"><br><br>
+
+<img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" width="20">
+<label>Additional Note:</label>
+<textarea rows="3" cols="30"></textarea><br><br>
+
+<img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" width="20">
+<label>Rating:</label>
+<input type="range" min="1" max="5"><br><br>
+
+
+<!-- Submit -->
+<br>
+<button type="submit">Submit Order</button>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
