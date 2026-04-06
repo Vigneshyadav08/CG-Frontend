@@ -1,0 +1,42 @@
+body {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    color: white;
+    margin: none;
+    padding: none;
+}
+.card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.location {
+    color: #c4f82a;
+}
+
+.bio {
+    color: #ccc;
+    font-size: 14px;
+}
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
