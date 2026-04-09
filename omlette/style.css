@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.container {
+    background-color: white;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* Image */
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Title */
+h1 {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+/* Description */
+.desc {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Preparation box */
+.prep {
+    background-color: #fdeff4;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.prep h3 {
+    color: #7b284f;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+.list, .prep ul {
+    padding-left: 20px;
+}
+
+.list li, .prep li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* Section headings */
+h2 {
+    margin-top: 20px;
+    color: #7b284f;
+    font-size: 18px;
+}
+
+/* Divider */
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* Nutrition */
+.nutrition div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nutrition div:last-child {
+    border-bottom: none;
+}
+
+.nutrition span {
+    color: #555;
+}
+
+.nutrition b {
+    color: #7b284f;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <h2>🌤️ Weather Now</h2>
+        <button>⚙️ Units</button>
+    </div>
+
+    <h1 class="title">How’s the sky looking today?</h1>
+
+    <!-- Search -->
+    <div class="search">
+        <input type="text" placeholder="🔍 Search for a place...">
+        <button>Search</button>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="main">
+
+        <!-- LEFT SIDE -->
+        <div class="left">
+
+            <!-- Main Card -->
+            <div class="card main-card">
+                <div>
+                    <h3>Berlin, Germany</h3>
+                    <p>Tuesday, Aug 5, 2025</p>
+                </div>
+                <div class="temp">☀️ 20°</div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats">
+                <div class="card">🌡️ Feels Like <br>18°</div>
+                <div class="card">💧 Humidity <br>46%</div>
+                <div class="card">🌬️ Wind <br>14 km/h</div>
+                <div class="card">🌧️ Rain <br>0 mm</div>
+            </div>
+
+            <!-- Daily -->
+            <div class="daily">
+                <h3>Daily forecast</h3>
+                <div class="days">
+                    <div class="card">Tue 🌧️ <br>20° 14°</div>
+                    <div class="card">Wed 🌧️ <br>21° 15°</div>
+                    <div class="card">Thu ☀️ <br>24° 14°</div>
+                    <div class="card">Fri 🌤️ <br>25° 13°</div>
+                    <div class="card">Sat ⛈️ <br>21° 15°</div>
+                    <div class="card">Sun 🌧️ <br>25° 16°</div>
+                    <div class="card">Mon 🌫️ <br>24° 15°</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="right card">
+            <h3>Hourly forecast</h3>
+
+            <div class="hour">3 PM 🌥️ <span>20°</span></div>
+            <div class="hour">4 PM 🌤️ <span>20°</span></div>
+            <div class="hour">5 PM ☀️ <span>20°</span></div>
+            <div class="hour">6 PM 🌥️ <span>19°</span></div>
+            <div class="hour">7 PM 🌧️ <span>18°</span></div>
+            <div class="hour">8 PM 🌫️ <span>18°</span></div>
+            <div class="hour">9 PM 🌧️ <span>17°</span></div>
+            <div class="hour">10 PM 🌥️ <span>17°</span></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
