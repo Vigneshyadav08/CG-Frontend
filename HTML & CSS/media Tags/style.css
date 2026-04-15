@@ -1,0 +1,29 @@
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+}
+
+/* !-- Mobile --*/
+@media (max-width:767px) {
+    .container{
+        background-color: red;
+        font-style: bolder;
+    }
+}
+
+ /* !-- Tablet -- */
+@media (min-width:768px) and (max-width:1023px){
+    .container{
+        background-color: yellow;
+    }
+}
+
+/* !-- PC */
+@media (min-width: 1024px){
+    .container{
+        background-color: blue;
+    }
+} 
+
+
