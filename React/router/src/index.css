@@ -1,0 +1,129 @@
+/* RESET + GLOBAL */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #1e293b;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* NAV LINKS */
+nav a {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* HOVER EFFECT */
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* ACTIVE LINK (NavLink) */
+nav a.active {
+  color: #38bdf8;
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 5px;
+}
+
+/* PAGE CONTAINER */
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+/* HEADINGS */
+h1 {
+  color: #1e293b;
+}
+
+h2 {
+  color: #334155;
+}
+
+/* CARD DESIGN */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* LIST */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 6px;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+}
+
+/* LABEL */
+.form label {
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* INPUT + TEXTAREA */
+.form input,
+.form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* INPUT FOCUS */
+.form input:focus,
+.form textarea:focus {
+  border-color: #38bdf8;
+}
+
+/* BUTTON */
+.form button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #38bdf8;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* BUTTON HOVER */
+.form button:hover {
+  background-color: #0284c7;
+}
+
+/* PAGE NOT FOUND */
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found h1 {
+  font-size: 40px;
+  color: red;
+}
